@@ -4,8 +4,6 @@ import "./App.css";
 import Example from "@pages/Example";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <Example />
